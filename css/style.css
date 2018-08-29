@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container, .content-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner {
+    padding-top: 45px;
+    background-color: #e6eaec;
+    height: 550px;
+}
+
+.header {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    height: 13px;
+}
+
+.header .buttons a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100px;
+    margin-left: 20px;
+    color: #000;
+    border: 1px gray solid;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.header .buttons a:hover {
+    color: #fff;
+    background-color: #de2323;
+    border: 1px #de2323 solid;
+    box-shadow: 0px 0px 2px 2px #de23238c;
+}
+
+.glasses {
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-container {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 15px;
+}
+
+.search-form {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-form #text {
+    width: 390px;
+    height: 45px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+}
+
+.search-form button {
+    width: 97px;
+    height: 45px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #de2323;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.search-form button:active {
+    box-shadow: 0px 0px 2px 2px #de23238c;
+}
+
+.content-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    list-style-type: none;
+    margin-left: 15px;
+    width: calc(2/12 * 100%)
+}
+
+.nav li {
+    margin-bottom: 50px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: calc(10/12 * 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.col img {
+    margin-bottom: 30px;
+}
